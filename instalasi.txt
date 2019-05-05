@@ -1,0 +1,29 @@
+Cara install aplikasi keepkas di localhost atau xampp :
+
+1. Buat folder baru dengan nama 'keepkasMVC' didalam "Program C/xampp/htdocs".
+2. Ekstrak file zip keepkasMVC ke dalam folder tersebut.
+3. Buka aplikasi XAMMP, kemudian tekan "Start" pada Apache dan MySQL.
+4. Buat database dengan nama keepkas_mvc dari 'localhost/phpmyadmin'.
+5.Kemudian pilih tombol 'Import' yang ada di menu atas.
+6. Pilih file database yang ada di folder "keepkasMVC/database". 
+7. Lalu tekan 'Go' atau 'Kirim'.
+8. Selanjutnya anda bisa mengakses aplikasi ini dengan url "localhost/keepkasMVC".
+
+==============================
+Akun User (anggota kelas) :
+url	= localhost/keepkasMVC
+nim 	= 0702163063
+password	= 0702163063
+
+==============================
+Akun Admin (bendahara kelas) :
+url	= localhost/keepkasMVC/admin
+username	= admin
+password	= admin
+
+
+Note : File configurasi ada di dalam folder "app/config/config.php". Silahkan sesuaikan dengan nama folder instalasi
+dan database anda.
+
+===============
+By : Syarif Ahmad
